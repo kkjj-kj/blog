@@ -1,0 +1,61 @@
+.pro2{
+    width: 1200px;
+    height: 460px;
+    background: rgb(0, 0, 0);
+}
+
+.card-box{
+    position: relative;
+    height: 400px;
+    width: 250px;
+    margin: 30px 25px;
+    transition: transfrom 2s;
+    backface-visibility:hidden;
+}
+
+.card-box .card, .card-box .card-bc{
+    position: absolute;
+    top : 0;
+    left: 0;
+    transition: transform 0.5s;
+    backface-visibility:hidden;
+    /*div旋转*/
+}
+
+.card-box img {
+    height: 400px;
+    width: 250px;
+}
+
+.card-box .card{
+    transform: rotateY(180deg);
+}
+.card-box .card-bc{
+    transform: rotateY(0deg);
+    transform: rotateX(0deg);
+}
+
+.card-box:hover .card{
+    transform: rotateY(0deg);
+}
+
+.card-box:hover .card-bc{
+    transform: rotateY(180deg);
+    transform: rotateX(180deg);
+}
+.card-JQ{
+    transform: rotateY(0deg)!important;
+}
+
+.card-BJQ{
+    transform: rotateY(180deg)!important;
+    transform: rotateX(180deg)!important;
+}
+
+
+.card-box1{
+    transform: translateY(-20px)
+}
+.card-box2{
+    transform: translateY(20px)
+}

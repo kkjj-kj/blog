@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/flash.css" type="text/css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+  <div class="all">
+         <div class="top">
+                 <div class="top-logo fl"><img src="images/logo.png"></div>
+                 <div class="top-list fl">
+                     <ul class="top-list-ul fl">
+                         <li><a href="#">首页</a></li>
+                         <li><a href="#">直播课程</a></li>
+                         <li><a href="#">教程</a></li>
+                         <li><a href="#">课表</a></li>
+                         <li><a href="#">下载</a></li>
+                         <li><a href="#">文章</a></li>
+                         <li><a href="#">关于</a></li>
+                     </ul>
+                 </div>
+                 <div class="top-input fl">
+                     <input type="text" placeholder="请输入搜索内容" class="input-text fl">
+                     <button type="button" onclick="input-search()" class="input-search fl">
+                         <img src="images/search.png">
+                     </button>
+                     <div class="input-con">
+                         <ul>
+                             <li>你好</li>
+                             <li>经常搜索</li>
+                             <li>交学费</li>
+                             <li>jquery</li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="dance fl">
+                     <div class="box-flash"></div>
+                 </div>
+                 <div class="top-login fr">
+                     <p class="login"><a href="#">登录</a></p>
+                     <p class="zhuce"><a href="#">注册</a></p>
+                 </div>
+         </div>
+         <div class="con">
+             <div class="con-cen">
+               <div class="sign-in">
+                   <div class="sign-top">
+                       <div class="sign-close">X</div>
+                   </div>
+                   <div class="sign-con">
+                       <div class="sign-con-left">登陆</div>
+                       <div class="sign-con-right">注册</div>
+                   </div>
+                   <div class="sign-inp">
+                       <p class="sign-inp-p1">账号:</p><input type="text" class="sign-user flt">
+                       <p class="sign-inp-p2">密码:</p><input type="password" class="sign-pass">
+                   </div>
+                   <ul class="sign-inp-style">
+                       <li><a href="#">QQ登陆</a></li>
+                       <li><a href="#">微信登陆</a></li>
+                       <li><a href="#">微博登陆</a></li>
+                   </ul>
+                   <div class="sign-phone">
+                       <a href="#">手机验证登陆</a>　|　<a href="#">账号密码登陆</a>
+                   </div>
+                   <p style="font-size:14px;text-align:center;ba"><a href="#" style="background:#ccc">立即登陆</a></p>
+               </div>
+               
+                <ul class="con-img">
+                 <li><img src="images/haibao.jpg"></li>
+                 <li><img src="images/con-img.jpg"></li>
+                 <li><img src="images/con-img1.jpg"></li>
+                 <li><img src="images/con-img2.jpg"></li>
+                 <li><img src="images/con-img3.jpg"></li>
+                 </ul>
+                 <div class="btn">
+                     <span class="prev"></span>
+                     <span class="next"></span>
+                 </div>
+                 <div class="box-focus">
+                 <ul class="box5">
+                     <li class="box-current1"></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                 </ul>
+                 </div>
+             </div>
+               <div class="con-listbg fl">
+                  <div class="con-hot fl">
+                   <h1 >热门专业</h1>
+                   <p >查看更多</p>
+                    </div>
+                     <ul class="con-list fl">
+                         <li>
+                             <a href="#">
+                             <span><img src="images/armchair.png" width="50px" height="50px"></span>
+                             <p class="ui-text1">UI设计</p>
+                             <p class="ui-text2">迎娶or成为白富美班</p>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                             <span><img src="images/bandage.png" width="50px" height="50px"></span>
+                             <p class="ui-text1">网站开发</p>
+                             <p class="ui-text2">零基础到网站项目开发</p>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                             <span><img src="images/captain-america.png" width="50px" height="50px"></span>
+                             <p class="ui-text1">平面设计</p>
+                             <p class="ui-text2">平面设计高级教程</p>
+                             </a>
+                         </li>
+                         <li>
+                             <a href="#">
+                             <span class="con-list-l"><img src="images/coffee-cup.png" width="50px" height="50px"></span>
+                             <p class="ui-text1">影视后期</p>
+                             <p class="ui-text2">影视后期合成大师班</p>
+                             </a>
+                         </li>
+                     </ul>
+                </div>    
+                <div class="video-p-box fl">
+                 <p class="PPPP">最新视频</p>
+                 <p class="pp"><a href="#">查看更多></a></p>
+                 </div>
+                 <ul class="video-box1 fl">
+                     <li class="box1-l"><a href="#"><div class="video-img"><img src="images/video-img.jpg" width="287.5px" height="160px"></div>
+                         <div class="video-tit">
+                             <p class="video-know">6 Sketch-插入ios元素</p>
+                             <p class="video-Author"><img src="images/mac.jpg"> 帅哥超人<span class="video-frequency">1000次播放</span></p>
+                         </div></a></li>
+                     <li class="box1-c"><a href="#"><div class="video-img"><img src="images/video-img.jpg" width="287.5px" height="160px"></div>
+                         <div class="video-tit">
+                             <p class="video-know">6 Sketch-插入ios元素</p>
+                             <p class="video-Author"><img src="images/mac.jpg"> 帅哥超人<span class="video-frequency">1000次播放</span></p>
+                         </div></a></li>
+                     <li class="box1-c"><a href="#"><div class="video-img"><img src="images/video-img.jpg" width="287.5px" height="160px"></div>
+                         <div class="video-tit">
+                             <p class="video-know">6 Sketch-插入ios元素</p>
+                             <p class="video-Author"><img src="images/mac.jpg"> 帅哥超人<span class="video-frequency">1000次播放</span></p>
+                         </div></a></li>
+                     <li class="box1-c"><a href="#"><div class="video-img"><img src="images/video-img.jpg" width="287.5px" height="160px"></div>
+                         <div class="video-tit">
+                             <p class="video-know">6 Sketch-插入ios元素</p>
+                             <p class="video-Author"><img src="images/mac.jpg"> 帅哥超人<span class="video-frequency">1000次播放</span></p>
+                         </div></a></li>
+                 </ul>
+         </div>
+         <div class="foot">
+             <div class="foot-img clearfix">
+                 <img src="images/dianhuadongtu.gif" class="fl">
+                 <div class="dianhua"><span>全国免费电话咨询</span><span>0755-12343214</span></div>
+                 <ul class="fl">
+                     <li><a href="#" style="border-left:0px!important;">1对1贴心服务</a></li>
+                     <li><a href="#">学习教程及素材咨询</a></li>
+                     <li><a href="#">课程优惠信息咨询</a></li>
+                     <li><a href="#">1对1贴心服务</a></li>
+                 </ul>
+             </div>
+         </div>
+  </div>
+   
+    
+</body>
+<script src="js/tab.js"></script>
+</html>

@@ -1,0 +1,98 @@
+.all{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/ogMs_bg.jpg);
+    background-size: 100% 100%;
+}
+.center{
+    width:1020px;
+    min-height: 1050px;
+    margin: 0 auto;
+}
+.top{
+    width: 100%;
+    height: 110px;
+}
+.logo{
+    width: 450px;
+    float: left;
+}
+.search{
+    position: relative;
+    right: -700px;
+    width: 320px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.input-search{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 320px;
+    height: 25px;
+    background:rgba(0,0,0,0.3);
+    border: 0px;
+    border-radius: 10px;
+    color:#FFF;
+    margin-top: 30px;
+    text-indent:40px
+}
+.search-icon{
+    position: absolute;
+    height: 23px;width: 100%;;
+    cursor: pointer;
+    top: 46px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.search-icon>i{
+    display: inline-block;
+    position: absolute;
+    width: 22px;height: 22px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px ;
+    cursor: pointer;
+    background-size: cover;
+    transition: 0.3S;
+    z-index: 1;
+}
+.search-icon01{
+    background-image: url(../images/search-red.png);
+    left: 10px;
+    opacity: 1;
+}
+.search-icon02{
+    background-image: url(../images/search.png);
+    left: 10px;
+    display: none;
+}
+.search-close{
+    background-image: url(../images/close.png);
+    left:295px;
+}
+.search-close:hover{
+    transform: rotate(360deg)
+}
+.list{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    cursor: pointer;
+}
+.list li{
+    width: 150px;
+    float:left;
+    background: #2a2626;
+    color: #FFF;
+    padding-left: 20PX;
+    font-size: 12PX;
+    font-weight: 550
+}
+.list>ul>li:hover{
+    background: #ffae2c;
+}
+
+.cur{
+    background: #ffae2c!important;
+}

@@ -1,0 +1,85 @@
+.all{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.con{
+    width: 1200px;
+    min-height: 2500px;
+    margin: 0 auto;
+}
+
+.pro1{
+    width:100%;
+    height: 500px;
+    background:rgba(0, 0, 0, 0.83);
+    perspective: 2000px
+}
+
+.button1{
+    height: auto;
+    width: auto;
+    margin: 200px 470px 0 470px
+}
+
+.button1 button{
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.31);
+}
+.button1 button:hover{
+    
+}
+    
+.box1{
+    width:200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    bottom: -50px;
+    text-align: center;
+    transition: ease-out 1s;
+    transform-style: preserve-3d;
+}
+
+.box1 li{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    line-height: 200px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.pap1{
+     background: #bf2121;    
+     transform: translateZ(100px);
+}
+.pap2{
+     background: #c3c929;    
+     transform:  rotateY(90deg) translateZ(100px);
+}
+.pap3{
+     background: #52aa38;    
+     transform: rotateY(-90deg) translateZ(100px) ;
+}
+.pap4{
+     background: #2bbbc1;    
+     transform: rotateX(-90deg) translateZ(100px) ;
+}
+.pap5{
+     background: #3238c4;    
+     transform: rotateX(90deg) translateZ(100px);
+}
+.pap6{
+     background: #bd21d1;    
+     transform: translateZ(-100px);
+}

@@ -1,0 +1,143 @@
+.box-flash:after{
+    width: 25px;
+    height: 25px;
+    background-color: #3476d7;
+    content: "";
+    position: absolute;
+    top:10px;
+    border-radius: 25%;
+    /*--动画--*/animation:tos 0.5s infinite linear/*--线性匀速变化--*/;
+}
+
+.box-flash:before{
+    width: 25px;
+    height: 5px;
+    content: "";
+    position: absolute;
+    top: 50px;
+    border-radius: 50%;
+    background: #000;
+    opacity: 0.2;
+    animation: sha 0.5s infinite linear;
+}
+
+@keyframes tos{
+    0%{transform: translateY(0) rotate(0deg)}
+    50%{transform: translateY(20px) rotate(45deg);
+        border-bottom-right-radius: 20px}
+    100%{transform: translateY(0px) rotate(90deg)}
+}
+
+@keyframes sha{
+    0%{transform: scale(0.8)}
+    50%{transform: scale(1.2)}
+    100%{transform: scale(0.8)}
+}
+
+.flash1{
+    height: 250px;
+    width: 1230px;
+    position: relative;
+    background-color: darkseagreen;
+    display: flex;
+    margin: 0 auto;
+    
+    
+}
+
+.fff:after{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: deeppink;
+    content: "";
+    margin-top: 50%;
+    margin-left: 50%;
+    bottom: 50%;
+    right: 45%;
+    animation: pik 0.5s linear infinite ;
+    border-radius: 20%;
+}
+.fff:before{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.3;
+    content: "";
+    margin-top: 50%;
+    margin-left: 50%;
+    bottom: 33%;
+    right: 45%;
+    border-radius: 50%;
+    animation: shadow 0.5s infinite linear;
+}
+
+@keyframes pik{
+    0%{transform: rotate(0deg)}
+    50%{transform:  translateY(50px)rotate(45deg);border-bottom-right-radius: 100px}
+    100%{transform:rotate(90deg);}
+}
+@keyframes shadow{
+    0%{transform: scale(0.8)}
+    50%{transform: scale(1)}
+    100%{transform: scale(0.8)}
+}
+
+.bigbox{
+    width: 1230px;
+    height: 1550px;
+    background: #685c80;
+    margin: 0 auto;
+}
+.aaa{
+    position:relative;
+    width: 1230px;
+    height: 200px;
+    background: #834574;
+}
+.aul{
+    position: absolute;
+    height: 150px;
+    margin-top: 25%;
+    margin-left: 27%;
+    bottom: 20%
+}
+.aul li{
+    line-height: 100%;
+    padding:20px 20px;
+    width:100px;
+    height: 100px;
+    float: left;
+    background: #cc5252;
+    margin: 20px;
+/*    transition:transform 1s, width 1s, height 1s,background 1s;*/
+}
+
+/*.aul li:hover{transform: translate(0,-10px);height: 250px;width: 200px;}*/
+
+/*.aul li:hover{background: blue;}*/
+
+/*.aul li:hover{transform: rotate(45deg) ;background:blue; height: 250px;width: 250px}*/
+
+/*.aul li:hover{transform:matrix(0.866,0.5,-0.5,0.866,0,0);background: blue;}*/
+
+/*.aul li:hover{animation:qqq 5s;}*/
+
+/*
+.xxx{animation:qqq 2s;}
+
+@keyframes qqq{
+    from{background: #cc5252;}
+    to{background:#fff;transform:translate(250px,250px)rotate(45deg)}
+}
+*/
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+.pic{
+    position: relative;
+    width: 1020px;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+}
+.pic-ul{
+    width: 400%;
+    height: 400px;
+    float: left;
+}
+.pic-ul-li{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.pic ul li img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    top: 35%;
+    transition: 0.2s
+}
+.prev{
+    position: absolute;
+    background: url(../images/btn_show.png);
+    height: 80px;
+    width: 60px;
+    left:960px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    background: url(../images/btn_show.png);
+    height: 80px;
+    width: 60px;
+    background-position:bottom;
+    transition: 0.2s;
+    cursor: pointer
+}
+
+.con-cen:hover .btn{
+    opacity: 1;
+}
+
+.prev:hover{
+    transform:scale(1.2);
+}
+.next:hover{
+    transform:scale(1.2);
+}
+
+.box-focus{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 5%;
+    z-index: 1;
+}
+.box-focus>ul{
+    width: 105px;
+    height: 20px;
+    margin: 0 auto;
+}
+.box-focus>ul>li{
+    width: 10px;
+    height: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    background: #000;
+    opacity: 0.6;
+    float: left;
+    margin:0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box-focus-ul-li{
+     border: 3px solid #000!important;
+    background-color: #ccc!important;
+    opacity: 0.5;
+}
+
+.box-focus-ul li:hover{
+    border: 3px solid #231852!important;
+    background-color: #FFF!important;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
